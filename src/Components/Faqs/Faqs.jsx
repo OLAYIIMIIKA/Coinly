@@ -2,8 +2,6 @@ import React from 'react'
 import './Faqs.css'
 import { FaMinus,FaPlus } from 'react-icons/fa';
 import { useState } from 'react'
-import { Link } from 'react-router-dom';
-import ContactUs from '../Pages/ContactUs';
 
 const Faqs = () => {
 
