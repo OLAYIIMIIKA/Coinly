@@ -4,22 +4,15 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import './Footer.css';
+import Rocket from '../Rocket/Rocket';
 
 const Footer = () => {
   const Year = new Date().getFullYear()
   return (
     <div className='footer'>
+      
+        <Rocket/>
 
-<div className='Rocket'>
-        
-        <div className="cont">
-  <img src="/images/Rocket.svg" className='mainImg-1' alt="Rocket img " />
-  <h1>Set your money in motion </h1>
-  <button>GET STARTED</button>
-
-</div>
-
-</div>
         <div className="Footer">
           <div className="footer-col-1">
             <div className="first-side">
