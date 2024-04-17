@@ -92,7 +92,7 @@
   position:absolute;
   top: 4;
   left: 3;
-  animation: rotate 10s linear infinite;
+  animation: rotate 90s linear infinite;
 }
 
 @keyframes rotate {
@@ -226,45 +226,3 @@
 
 
 
-/* .earth {
-width: 100%;
-min-height: 100%;
-position: relative;
-
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; 
-  overflow: hidden;
-  border: 3px  solid #3405ed;
-}
-
-.earth:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: -20px -20px 50px 2px #000 inset;
-  border-radius: 5%;
-}
-
-.earth > img {
-
-  overflow: hidden;
-  padding-left: 3rem;
-  animation: spin 30s linear infinite;
-  position: absolute;
-  background-size: cover;
- 
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg); 
-}
-} */
