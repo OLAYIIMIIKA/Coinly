@@ -1,0 +1,270 @@
+
+.intro {
+    display: flex;
+    height: 66vh;
+    
+
+}
+
+.i-left {
+    display: flex;
+    margin-top: 7.06rem;
+    margin-left: 8rem;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    font-weight: '600';
+    word-wrap: 'break-word';
+    gap: 2rem;
+
+    
+}
+
+.coins{
+    color: var(--Trypan-Blue, #0012BC);
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.i-name {
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.intro-header {
+    color: #000;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.i-name>:nth-child(2) {
+    color: #0B0F38;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 33.875rem;
+    margin-top: 2.25rem ;
+}
+
+
+.i-btn {
+    display: flex;
+    width: 22.6875rem;
+    height: 4.375rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin-top: 4rem;
+    border: none;
+    color: #fff;
+    
+
+    border-radius: 0.5rem;
+    background: #0171E5;
+}
+
+
+.i-right {
+    flex: 1.1;
+    /* position: relative; */
+    min-height: 100%;
+    margin-top: 5rem;
+   
+}
+
+
+.earth{
+  position: relative;
+  width: 100%;
+  height: 200%;
+  overflow: hidden;
+}
+.globe-Logo {
+  position:absolute;
+  top: 4;
+  left: 3;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform:rotate(360deg);
+}
+}
+
+
+/* .group-coinLogo {
+  width: 49rem;
+  position: absolute;
+  top: 6%;
+  left: 8%;
+  transform: rotate(10deg)
+} */
+
+.contact-coinLogo-1{
+  position: absolute;
+  top: 17%;
+  left: 85%;
+  width: 13rem;
+  transform: rotate(-54deg)
+}
+
+
+.contact-coinLogo-2{
+  position: absolute;
+  top: 11%;
+  left: 29%;
+  width: 13rem;
+  transform: rotate(-59deg)
+}
+.contact-coinLogo-3{
+  position: absolute;
+  top: 43%;
+  left: 9%;
+  width: 13rem;
+  transform: rotate(-70deg)
+}
+
+
+/* Service section */
+
+.another {
+    margin-top: 14rem;
+    position: relative;
+}
+
+.container {
+  width: 90rem;
+  height: 39.6875rem;
+  margin: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #0012BC;
+  background: #FFFBEB;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  color: #000;
+  text-align: center;
+  font-family: 'General-Sans';
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 3.19rem ;
+  margin-left: 11.38rem;
+}
+
+
+.wrapper h2 {
+  color: #000;
+  font-family: 'General Sans';
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1.69rem ;
+}
+
+.wrapper p {
+  width: 22.6775rem;
+  color: #000;
+  font-family: 'General Sans';
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4.49rem ;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3.10rem ;
+}
+
+.epx {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.subheader {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+
+
+
+
+/* .earth {
+width: 100%;
+min-height: 100%;
+position: relative;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  overflow: hidden;
+  border: 3px  solid #3405ed;
+}
+
+.earth:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: -20px -20px 50px 2px #000 inset;
+  border-radius: 5%;
+}
+
+.earth > img {
+
+  overflow: hidden;
+  padding-left: 3rem;
+  animation: spin 30s linear infinite;
+  position: absolute;
+  background-size: cover;
+ 
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); 
+}
+} */

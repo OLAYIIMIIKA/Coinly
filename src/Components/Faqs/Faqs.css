@@ -1,0 +1,105 @@
+.faqs {
+    height: 70vh;
+    margin: 9rem 0rem 4rem 0rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.faqs-container {
+    height: 100%;
+    display: flex;
+    width:  auto;
+    border-radius: 0.5rem;
+    gap: 3rem;
+
+  }
+
+  .faqs-con1 {
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 42%;
+    
+  }
+
+  .faqs-con1 h1 {
+    margin-bottom: 1.7rem;
+    font-weight: 700;
+    font-size: 4.4rem;
+   
+  }
+
+  .faqs-con1 h1 span {
+    color: #001cbc;
+  }
+  
+  .faqs-con1 p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding-right: 2rem;
+   
+  }
+
+  .link{
+   color: rgb(41, 87, 240);
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+
+
+
+
+  .faqs-con2 {
+    border-radius: 0.5rem;
+    height: auto;
+    width: 55%;
+  }
+
+  /* Accodion section */
+
+
+  .accordion-wrapper {
+    width: auto;
+    height: fill;
+    border-radius: 0.5rem;
+  }
+  .first-info {
+    width: 100%;
+    height:  fit-content;
+    margin: 25px auto;
+    border-radius: 0.5rem;
+     background-color: #FFFBEB;
+    border: 1px solid #001cbc;
+    cursor: pointer;
+  }
+
+  /* .first-info span {
+    
+  } */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .description {
+    padding: 0px px;
+    margin: 0rem 0rem 0rem 2rem ;
+    overflow: hidden;
+    line-height: 0px;
+    font-weight: 500;
+    font-size: 25px;
+    /* we be shown on onClick */
+    transition: all -1s ease-in-out;
+  }
+
+  .opentab {
+
+    line-height: 35px;
+  }
+
+

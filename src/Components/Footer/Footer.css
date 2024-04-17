@@ -1,0 +1,153 @@
+.footer {
+ 
+    height: auto;
+    background: #074688;
+    border: 1px solid #0012BC;
+    margin-top: 30rem;
+    position: relative;
+
+  }   
+
+
+  .Footer { 
+    margin: 12rem 2rem 0 2rem ;
+  }
+
+  .input-style {
+    width: 28.13275rem;
+ 
+
+  }
+  .input-style form {
+    position: relative;
+  }
+
+  .text_input {
+    width: 27.13275rem;
+    height: 2.9rem;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    background: #FDFCFC;
+    color: #0171E5;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .text_input:focus {
+    outline: none;
+  }
+
+  ::placeholder {
+    color: #0171E5;
+  }
+  
+  .footer-btn {
+    position: absolute; 
+    width: 12rem;
+    line-height: 50px;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    font-weight: 550;
+    border-radius: 0.5rem;
+    background: #0171E5;
+    top: 0;
+    right: 0;
+    
+  }
+  
+  .footer-btn:hover {
+    cursor: pointer;
+  }
+
+  .footer-col-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: center;
+    border-bottom: 2px solid rgba(4, 209, 255, 0.60);
+  
+  }
+
+  .first-side {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .social-media{
+    display: flex;
+    gap : 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #FDFCFC;
+  }
+
+  .social-media :hover {
+    cursor: pointer;
+  } 
+
+  .footer-links {
+    display: flex;
+    width: 33.4375rem;
+    align-items: flex-start;
+    gap : 4rem;
+    color: #FDFCFC;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-links :hover {
+    cursor: pointer;
+  } 
+
+
+  .second-side {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .footer h4 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-col-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+   
+  }
+
+  .border-right {
+    border-right: 2px solid rgba(4, 209, 255, 0.60);
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    
+   
+  }
+
+  .footer-col-2 p {
+    padding-top: 0.3rem;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .w-coinly :hover {
+    cursor: pointer;
+  }

@@ -1,0 +1,59 @@
+.Rocket {
+    position: absolute;
+    /* margin-top: 10rem; */
+    top: -62%;
+    left: 8%;
+}
+
+.cont {
+    width: 87rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 1px solid #0012BC;
+    background: #FFFBEB;
+    /* margin-top: 11.44rem ;
+    margin-left: 8rem;
+    margin-right: 7rem; */
+    margin: auto;
+    position: relative;
+  }
+
+  .cont h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #080808;
+    text-align: center;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .cont button {
+    display: flex;
+    width: 23rem;
+    height: 3.75rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    background: #0171E5;
+    cursor: pointer;
+  }
+
+  .cont img {
+    position: absolute;
+    top: -27%;
+    left: -8%;
+    width: 29rem;
+    height: auto;
+  }
