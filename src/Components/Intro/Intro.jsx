@@ -27,7 +27,10 @@ const Intro = () => {
 
         {/* <img className='logo' src='/images/Globe.svg' alt='Navbar coinly logo' /> */}
         <div class="earth">
-          <img className='globe-Logo' src='/images/New Globe only.svg' alt='Navbar coinly logo' />
+          <div className="circle">
+          <img className="Map" src="/images/Map.svg" alt="" />
+      
+          </div>
           <img className='contact-coinLogo-1' src='/images/3D coin 2.svg' alt='' />
           <img className='contact-coinLogo-2' src='/images/3D coin 2.svg' alt='' />
           <img className='contact-coinLogo-3' src='/images/3D coin 2.svg' alt='' />
